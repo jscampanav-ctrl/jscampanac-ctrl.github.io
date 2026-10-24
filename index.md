@@ -4,4 +4,4 @@ Este es un espacio académico y sin fines de lucro dedicado a la recopilación y
 
 ### ¿Cómo navegar este sitio?
 Cada teorema cuenta con tres pestañas interactivas diseñadas para adaptarse a tu nivel de estudio actual: de la pura intuición gráfica al formalismo axiomático estricto.
- 
+   
