@@ -1,0 +1,28 @@
+site_name: Enciclopedia de Demostraciones Físicas
+site_description: Un catálogo colaborativo de teoremas de física explicados en tres niveles de rigor científico.
+theme:
+  name: material
+  palette:
+    scheme: slate # Tema oscuro premium, muy usado en ciencias
+    primary: deep purple
+  features:
+    - content.tabs.link # Permite las pestañas interactivas de tus niveles
+    - search.suggest
+
+markdown_extensions:
+  - pymdownx.superfences # Soporte para bloques avanzados de código
+  - pymdownx.tabbed:
+      alternate_style: true # Activa las pestañas de tus niveles de demostración
+  - arithmatex:
+      generic: true # Activa el soporte para renderizar ecuaciones matemáticas de LaTeX
+
+extra_javascript:
+  - https://cloudflare.com # El motor matemático web
+
+plugins:
+  - search
+
+nav:
+  - Inicio: index.md
+  - Mecánica Clásica:
+    - Conservación de la Energía: mecanica/energia.md
