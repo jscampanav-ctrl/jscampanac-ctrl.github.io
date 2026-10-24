@@ -10,7 +10,6 @@ permissions:
 
 jobs:
   deploy:
-    runs-packages: true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
